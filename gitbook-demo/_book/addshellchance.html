@@ -1,0 +1,612 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>新增销售机会 · SmartCRM系统接口文档</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        <meta name="author" content="renliangd">
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search-plus/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-prism/prism-base16-ateliersulphurpool.light.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-anchors/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-ace/ace.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-sectionx/sectionx.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="projectinfo.html" />
+    
+    
+    <link rel="prev" href="addtask.html" />
+    
+
+    
+        <link rel="shortcut icon" href='favicon.ico' type="image/x-icon">
+    
+    
+        <link rel="bookmark" href='favicon.ico' type="image/x-icon">
+    
+    
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        <li class="header">开发前必读</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                        <b>1.1.</b>
+                    
+                    首页
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="introduction.html">
+            
+                <a href="introduction.html">
+            
+                    
+                        <b>1.2.</b>
+                    
+                    概述
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="startdev.html">
+            
+                <a href="startdev.html">
+            
+                    
+                        <b>1.3.</b>
+                    
+                    开始开发
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="changelog.html">
+            
+                <a href="changelog.html">
+            
+                    
+                        <b>1.4.</b>
+                    
+                    更新日志
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">接口列表</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="list.html">
+            
+                <a href="list.html">
+            
+                    
+                        <b>2.1.</b>
+                    
+                    日报首页查询
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="query.html">
+            
+                <a href="query.html">
+            
+                    
+                        <b>2.2.</b>
+                    
+                    日报查询
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="save.html">
+            
+                <a href="save.html">
+            
+                    
+                        <b>2.3.</b>
+                    
+                    日报保存
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="addtask.html">
+            
+                <a href="addtask.html">
+            
+                    
+                        <b>2.4.</b>
+                    
+                    新增客户任务
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.5" data-path="addshellchance.html">
+            
+                <a href="addshellchance.html">
+            
+                    
+                        <b>2.5.</b>
+                    
+                    新增销售机会
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="projectinfo.html">
+            
+                <a href="projectinfo.html">
+            
+                    
+                        <b>2.6.</b>
+                    
+                    查询项目列表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7" data-path="customerinfo.html">
+            
+                <a href="customerinfo.html">
+            
+                    
+                        <b>2.7.</b>
+                    
+                    查询客户列表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8" data-path="empinfo.html">
+            
+                <a href="empinfo.html">
+            
+                    
+                        <b>2.8.</b>
+                    
+                    查询人员列表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9" data-path="bankempinfo.html">
+            
+                <a href="bankempinfo.html">
+            
+                    
+                        <b>2.9.</b>
+                    
+                    查询客户干系人
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">附录A</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="globalrtncode.html">
+            
+                <a href="globalrtncode.html">
+            
+                    
+                        <b>3.1.</b>
+                    
+                    全局返回码
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >新增销售机会</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h3 id="&#x65B0;&#x589E;&#x9500;&#x552E;&#x673A;&#x4F1A;"><a name="&#x65B0;&#x589E;&#x9500;&#x552E;&#x673A;&#x4F1A;" class="anchor-navigation-ex-anchor" href="#&#x65B0;&#x589E;&#x9500;&#x552E;&#x673A;&#x4F1A;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x65B0;&#x589E;&#x9500;&#x552E;&#x673A;&#x4F1A;" class="plugin-anchor" href="#&#x65B0;&#x589E;&#x9500;&#x552E;&#x673A;&#x4F1A;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x65B0;&#x589E;&#x9500;&#x552E;&#x673A;&#x4F1A;</h3>
+<h6 id="&#x63A5;&#x53E3;&#x8BF4;&#x660E;"><a name="&#x63A5;&#x53E3;&#x8BF4;&#x660E;" class="anchor-navigation-ex-anchor" href="#&#x63A5;&#x53E3;&#x8BF4;&#x660E;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x63A5;&#x53E3;&#x8BF4;&#x660E;" class="plugin-anchor" href="#&#x63A5;&#x53E3;&#x8BF4;&#x660E;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x63A5;&#x53E3;&#x8BF4;&#x660E;:</h6>
+<p>&#x7528;&#x6237;&#x9500;&#x552E;&#x673A;&#x4F1A;&#x8868;&#x5355;&#x6570;&#x636E;&#x63D0;&#x4EA4;&#x4FDD;&#x5B58;&#x3002;</p>
+<h6 id="&#x8BF7;&#x6C42;&#x65B9;&#x5F0F;&#xFF1A;-post"><a name="&#x8BF7;&#x6C42;&#x65B9;&#x5F0F;&#xFF1A;-post" class="anchor-navigation-ex-anchor" href="#&#x8BF7;&#x6C42;&#x65B9;&#x5F0F;&#xFF1A;-post"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x8BF7;&#x6C42;&#x65B9;&#x5F0F;&#xFF1A;-post" class="plugin-anchor" href="#&#x8BF7;&#x6C42;&#x65B9;&#x5F0F;&#xFF1A;-post"><i class="fa fa-link" aria-hidden="true"></i></a>&#x8BF7;&#x6C42;&#x65B9;&#x5F0F;&#xFF1A; POST</h6>
+<h6 id="&#x8BF7;&#x6C42;&#x5730;&#x5740;&#xFF1A;"><a name="&#x8BF7;&#x6C42;&#x5730;&#x5740;&#xFF1A;" class="anchor-navigation-ex-anchor" href="#&#x8BF7;&#x6C42;&#x5730;&#x5740;&#xFF1A;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x8BF7;&#x6C42;&#x5730;&#x5740;&#xFF1A;" class="plugin-anchor" href="#&#x8BF7;&#x6C42;&#x5730;&#x5740;&#xFF1A;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x8BF7;&#x6C42;&#x5730;&#x5740;&#xFF1A;</h6>
+<p><a href="http://ip:port/SmartCRM/api/mydayreport/addshellchance" target="_blank">http://ip:port/SmartCRM/api/mydayreport/addshellchance</a></p>
+<h6 id="&#x8BF7;&#x6C42;&#x62A5;&#x6587;&#xFF1A;"><a name="&#x8BF7;&#x6C42;&#x62A5;&#x6587;&#xFF1A;" class="anchor-navigation-ex-anchor" href="#&#x8BF7;&#x6C42;&#x62A5;&#x6587;&#xFF1A;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x8BF7;&#x6C42;&#x62A5;&#x6587;&#xFF1A;" class="plugin-anchor" href="#&#x8BF7;&#x6C42;&#x62A5;&#x6587;&#xFF1A;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x8BF7;&#x6C42;&#x62A5;&#x6587;&#xFF1A;</h6>
+<pre class="language-"><code>{
+    &quot;customid&quot;:&quot;123&quot;,
+    &quot;customerName&quot;:&quot;123&quot;,
+    &quot;projectCode&quot;:&quot;H11Chh88888&quot;,
+    &quot;projectName&quot;:&quot;&#x9879;&#x76EE;&#x540D;&#x79F0;&quot;,
+    &quot;writetcode&quot;:&quot;renliangd&quot;,
+    &quot;tasktype&quot;:&quot;&#x4EFB;&#x52A1;&#x7C7B;&#x578B;&quot;,
+    &quot;trackfreq&quot;:&quot;&#x8DDF;&#x8E2A;&#x9891;&#x7387;&quot;,
+    &quot;remindfreq&quot;:&quot;&#x63D0;&#x9192;&#x9891;&#x7387;&quot;,
+    &quot;focustime&quot;:&quot;&#x4EFB;&#x52A1;&#x5173;&#x6CE8;&#x65F6;&#x95F4;&quot;,
+    &quot;taskcontent&quot;:&quot;&#x4EFB;&#x52A1;&#x5185;&#x5BB9;&quot;
+}
+</code></pre><h6 id="&#x53C2;&#x6570;&#x8BF4;&#x660E;&#xFF1A;"><a name="&#x53C2;&#x6570;&#x8BF4;&#x660E;&#xFF1A;" class="anchor-navigation-ex-anchor" href="#&#x53C2;&#x6570;&#x8BF4;&#x660E;&#xFF1A;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x53C2;&#x6570;&#x8BF4;&#x660E;&#xFF1A;" class="plugin-anchor" href="#&#x53C2;&#x6570;&#x8BF4;&#x660E;&#xFF1A;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x53C2;&#x6570;&#x8BF4;&#x660E;&#xFF1A;</h6>
+<table>
+<thead>
+<tr>
+<th>&#x53C2;&#x6570;</th>
+<th>&#x5FC5;&#x987B;</th>
+<th>&#x8BF4;&#x660E;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>customid</td>
+<td>&#x662F;</td>
+<td>&#x5BA2;&#x6237;ID</td>
+</tr>
+<tr>
+<td>customerName</td>
+<td>&#x662F;</td>
+<td>&#x5BA2;&#x6237;&#x540D;&#x79F0;</td>
+</tr>
+<tr>
+<td>projectCode</td>
+<td>&#x662F;</td>
+<td>&#x9879;&#x76EE;&#x7F16;&#x53F7;</td>
+</tr>
+<tr>
+<td>projectName</td>
+<td>&#x662F;</td>
+<td>&#x9879;&#x76EE;&#x540D;&#x79F0;</td>
+</tr>
+<tr>
+<td>writetcode</td>
+<td>&#x662F;</td>
+<td>&#x7528;&#x6237;ITCode</td>
+</tr>
+<tr>
+<td>tasktype</td>
+<td>&#x662F;</td>
+<td>&#x65E5;&#x62A5;&#x7C7B;&#x578B;&#x7F16;&#x7801; &#x5BA2;&#x6237;&#x62DC;&#x8BBF;&#xFF1A;1&#xFF0C;&#x5BA2;&#x6237;&#x6536;&#x6B3E;&#xFF1A;4&#xFF0C;&#x5176;&#x4ED6;&#xFF1A;6</td>
+</tr>
+<tr>
+<td>trackfreq</td>
+<td>&#x662F;</td>
+<td>&#x8DDF;&#x8E2A;&#x9891;&#x7387; 1-9 &#x65E5;&#xFF0C;&#x5468;&#xFF0C;&#x6708;&#xFF0C;&#x5B63;&#xFF0C;&#x660E;&#x5E74;&#xFF0C;&#x4E0D;&#x8DDF;&#x8E2A;&#xFF0C;&#x672C;&#x5468;&#x4E0D;&#xFF0C;&#x672C;&#x6708;&#x4E0D;&#xFF0C;&#x672C;&#x5B63;&#x4E0D;</td>
+</tr>
+<tr>
+<td>remindfreq</td>
+<td>&#x662F;</td>
+<td>&#x63D0;&#x9192;&#x9891;&#x7387;</td>
+</tr>
+<tr>
+<td>focustime</td>
+<td>&#x662F;</td>
+<td>&#x4EFB;&#x52A1;&#x5173;&#x6CE8;&#x65F6;&#x95F4;</td>
+</tr>
+<tr>
+<td>taskcontent</td>
+<td>&#x662F;</td>
+<td>&#x4EFB;&#x52A1;&#x4F60;&#x5185;&#x5BB9;</td>
+</tr>
+</tbody>
+</table>
+<h6 id="&#x8FD4;&#x56DE;&#x62A5;&#x6587;&#xFF1A;"><a name="&#x8FD4;&#x56DE;&#x62A5;&#x6587;&#xFF1A;" class="anchor-navigation-ex-anchor" href="#&#x8FD4;&#x56DE;&#x62A5;&#x6587;&#xFF1A;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x8FD4;&#x56DE;&#x62A5;&#x6587;&#xFF1A;" class="plugin-anchor" href="#&#x8FD4;&#x56DE;&#x62A5;&#x6587;&#xFF1A;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x8FD4;&#x56DE;&#x62A5;&#x6587;&#xFF1A;</h6>
+<pre class="language-"><code>{
+    &quot;rtnCode&quot;: &quot;2000&quot;,
+    &quot;rtnMsg&quot;: &quot;&#x4FDD;&#x5B58;&#x6210;&#x529F;&#xFF01;&quot;,
+    &quot;data&quot;: {}
+}
+</code></pre><h6 id="&#x8FD4;&#x56DE;&#x8BF4;&#x660E;&#xFF1A;"><a name="&#x8FD4;&#x56DE;&#x8BF4;&#x660E;&#xFF1A;" class="anchor-navigation-ex-anchor" href="#&#x8FD4;&#x56DE;&#x8BF4;&#x660E;&#xFF1A;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x8FD4;&#x56DE;&#x8BF4;&#x660E;&#xFF1A;" class="plugin-anchor" href="#&#x8FD4;&#x56DE;&#x8BF4;&#x660E;&#xFF1A;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x8FD4;&#x56DE;&#x8BF4;&#x660E;&#xFF1A;</h6>
+<table>
+<thead>
+<tr>
+<th>&#x53C2;&#x6570;</th>
+<th>&#x5FC5;&#x987B;</th>
+<th>&#x8BF4;&#x660E;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>rtnCode</td>
+<td>&#x662F;</td>
+<td>&#x8FD4;&#x56DE;&#x7801;</td>
+</tr>
+<tr>
+<td>rtnMsg</td>
+<td>&#x662F;</td>
+<td>&#x8FD4;&#x56DE;&#x6D88;&#x606F;</td>
+</tr>
+<tr>
+<td>data</td>
+<td>&#x662F;</td>
+<td>&#x8FD4;&#x56DE;&#x6570;&#x636E;</td>
+</tr>
+</tbody>
+</table>
+<footer class="page-footer"><span class="copyright">Copyright &#xA9; dcits.com 2017 all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
+2018-01-09 18:04:33
+</span></footer>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="addtask.html" class="navigation navigation-prev " aria-label="Previous page: 新增客户任务">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="projectinfo.html" class="navigation navigation-next " aria-label="Next page: 查询项目列表">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"新增销售机会","level":"2.5","depth":1,"next":{"title":"查询项目列表","level":"2.6","depth":1,"path":"projectinfo.md","ref":"projectinfo.md","articles":[]},"previous":{"title":"新增客户任务","level":"2.4","depth":1,"path":"addtask.md","ref":"addtask.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","-highlight","-livereload","-sharing","search-plus@^0.0.11","simple-page-toc@^0.1.1","prism@^2.1.0","anchors@^0.7.1","prism-themes@^0.0.2","include-codeblock@^3.0.2","ace@^0.3.2","splitter@^0.0.8","tbfed-pagefooter@^0.0.1","expandable-chapters-small@^0.1.7","sectionx@^3.1.0","anchor-navigation-ex","sitemap-general@^0.1.1","favicon@^0.0.2","livereload"],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"Copyright © dcits.com 2017","modify_label":"修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"prism":{"css":["prism-themes/themes/prism-base16-ateliersulphurpool.light.css"]},"ace":{},"simple-page-toc":{"maxDepth":3,"skipFirstH1":true},"splitter":{},"sitemap-general":{"prefix":"http://www.dcits.com"},"fontsettings":{"theme":"white","family":"sans","size":2},"sectionx":{},"anchor-navigation-ex":{"mode":"float","pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"showLevel":true,"tocLevel1Icon":"fa fa-hand-o-right","tocLevel2Icon":"fa fa-hand-o-right","tocLevel3Icon":"fa fa-hand-o-right","isShowTocTitleIcon":true,"printLog":false,"multipleH1":true,"associatedWithSummary":true,"float":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false}},"favicon":{"shortcut":"favicon.ico","bookmark":"favicon.ico"},"prism-themes":{},"expandable-chapters-small":{},"include-codeblock":{"check":false,"edit":true,"fixlang":false,"lang":"","template":"ace","theme":"chrome","unindent":true},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true},"anchors":{},"search-plus":{}},"theme":"default","author":"renliangd","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"SmartCRM系统接口文档","language":"zh-hans","output.name":"site","gitbook":"3.2.2","description":"SmartCRM系统移动端接口说明"},"file":{"path":"addshellchance.md","mtime":"2018-01-09T10:04:33.837Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-01-10T03:02:12.202Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search-plus/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search-plus/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-ace/ace/ace.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-ace/ace.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
+        
+    
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sectionx/sectionx.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
