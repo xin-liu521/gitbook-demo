@@ -1,0 +1,27 @@
+Administrator@hangying138 MINGW64 ~
+$ git config --global user.name "xin-liu521"
+
+Administrator@hangying138 MINGW64 ~
+$ git config --global user.email "455059154@qq.com"
+----输入账号和邮箱
+Administrator@hangying138 MINGW64 ~
+$ cd e:gitTest
+----进入仓库文件夹
+Administrator@hangying138 MINGW64 /e/gitTest
+$ git init
+Initialized empty Git repository in E:/gitTest/.git/
+----初始化本地仓库
+Administrator@hangying138 MINGW64 /e/gitTest (master)
+$ git add .
+warning: LF will be replaced by CRLF in pom.xml.
+----提交到本地仓库
+Administrator@hangying138 MINGW64 /e/gitTest (master)
+$ git commit -m "提交文件"
+
+Administrator@hangying138 MINGW64 /e/gitTest (master)
+$ git remote add origin https://github.com/xin-liu521/springBoot-importOrExport.git
+----连接远程仓库
+Administrator@hangying138 MINGW64 /e/gitTest (master)
+$ git push -u origin master
+Username for 'https://github.com': xin-liu521
+----合并代码

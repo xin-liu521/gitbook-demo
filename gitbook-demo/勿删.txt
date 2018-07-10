@@ -1,0 +1,39 @@
+https://39.106.140.225/svn/softool/ 
+
+http://blog.csdn.net/banjing_1993/article/details/77981601
+
+后续大家测试建议通过IP地址访问，测试服务器：39.106.140.225 
+
+，正式服务器：39.104.51.151
+
+保存下：www.x2yun.cn 
+
+,西安人事：renshi，北京人事：renshibj，武汉人事：renshiwh，宝鸡人事：renshibaoji，密码统一：vvkj18
+
+
+
+
+
+
+http://blog.csdn.net/qq_27093465/article/details/74898489  //idea配置svn
+
+
+https://www.w3cschool.cn/weixinkaifawendang/f5ej1q84.html  微信公众号
+
+
+http://blog.csdn.net/bao_smart/article/details/71742053   公众号模板推送
+
+https://blog.csdn.net/pql925/article/details/72772660     上传项目到githup
+github账号：xin-liu521  密码：455liuxin*
+
+/**************微信开发者id和密码****************************************/
+	public static final String APP_ID = "wx34957e96730f18dd";//根据自己的替换
+
+	public static final String APP_SECRET = "2ddb0a2e1a35fdd4e75512ef89e230f9";
+
+
+/**mysql数据库关于max_allowed_packet的问题**/
+show VARIABLES like '%max_allowed_packet%'; 
+set global max_allowed_packet = 2*1024*10 
+
+
